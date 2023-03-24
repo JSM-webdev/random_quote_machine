@@ -4,4 +4,8 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: "/random_quote_machine", 
+  build: {
+    outDir: 'docs'
+  }
 })
